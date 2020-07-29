@@ -1,0 +1,18 @@
+.all1 {
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: 300px 450px 300px;
+  grid-gap: 9%;
+}
+
+.name,
+.web,
+.phone,
+.image {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
